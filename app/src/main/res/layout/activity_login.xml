@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/fondo3"
+    android:orientation="vertical"
+    android:id="@+id/contenedor"
+    >
+
+    <ImageView
+
+        android:layout_marginTop="50dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/metro"
+        />
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_vertical|center"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_vertical|center"
+            android:orientation="vertical"
+            android:background="@color/my_color_light"
+
+            >
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E-mail"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtemail"
+            />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_vertical|center"
+            android:orientation="vertical"
+            android:background="@color/my_color_light"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"/>
+
+            <EditText
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtpassword"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_vertical|center"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:text="Registrate"
+            android:layout_weight="1"
+            android:background="@color/red"
+            android:textColor="@color/my_color_light"
+            android:layout_marginRight="19dp"
+            android:id="@+id/registrate"
+            />
+
+            <Button
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entrar"
+                android:layout_weight="1"
+                android:background="@color/yellow"
+                android:textColor="@color/my_color_dark"
+                android:id="@+id/entrar"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>

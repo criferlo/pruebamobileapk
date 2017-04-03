@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Prueba Android</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_registrar_usuario">RegistrarUsuarioActivity</string>
+    <string name="title_activity_iniciar_sesion">IniciarSesionActivity</string>
+    <string name="title_activity_ciudad">CiudadActivity</string>
+    <string name="title_activity_ciudad_lista">CiudadListaActivity</string>
+    <string name="title_activity_usuarios_lista">UsuariosListaActivity</string>
+</resources>
